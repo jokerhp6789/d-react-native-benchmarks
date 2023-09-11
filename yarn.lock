@@ -2775,10 +2775,10 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.2.tgz#1d4bf9d572f11c14031f0436e1c10bc1f571f50b"
   integrity sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==
 
-d-component-react-native@^0.1.24:
-  version "0.1.24"
-  resolved "https://registry.yarnpkg.com/d-component-react-native/-/d-component-react-native-0.1.24.tgz#096382a52e80abf7ba6e5dbd422a92ecb9fe9b1a"
-  integrity sha512-rf1Ef2p2wvspGfMZ0NsXWQ5ErPdtnP14bheE4cYRUuCYKGokAHTKTbOX1/fyn6SFNflVpsEwkT7+s9Pd4h6KsA==
+d-component-react-native@^0.1.30:
+  version "0.1.30"
+  resolved "https://registry.yarnpkg.com/d-component-react-native/-/d-component-react-native-0.1.30.tgz#e912f2e9ff565fbe92c90eb7b03d8ffdf18e3337"
+  integrity sha512-TfbyxGCCua/f0VQT2dOo+AG1gJgC+Uq/AWJzCawdn76H8yceXgzv/d4pEQyTtZp0ziZhAr0/q1EHjQ2IMu8vhw==
   dependencies:
     classnames "^2.3.1"
     lodash "4.0.0"
