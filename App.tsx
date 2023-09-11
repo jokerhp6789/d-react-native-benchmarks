@@ -13,18 +13,12 @@ import {
   StyleSheet,
   useColorScheme,
 } from 'react-native';
-import {
-  Button,
-  InputDate,
-  TabBar,
-  TabView,
-  Text,
-  View,
-} from 'd-component-react-native';
+import {Button, InputDate, TabView, Text, View} from 'd-component-react-native';
 import {Colors, Header} from 'react-native/Libraries/NewAppScreen';
 import DReactNative from './src/components/DReactNative';
 import TimedRender from './src/components/TimedRender';
 import ReactNative from './src/components/ReactNative';
+import DReactNativeStyles from './src/components/DReactNativeStyles';
 
 function App(): JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -42,6 +36,8 @@ function App(): JSX.Element {
     switch (styleType) {
       case 'React Native':
         return <ReactNative />;
+      case 'DReactNativeStyles':
+        return <DReactNativeStyles />;
       case 'DReactNative':
         return <DReactNative />;
       default:
@@ -69,6 +65,11 @@ function App(): JSX.Element {
             className="mt-2"
             children="d-component-react-native"
             onPress={onStyleTypePress('DReactNative')}
+          />
+          <Button
+            className="mt-2"
+            children="d-component-react-native-styles"
+            onPress={onStyleTypePress('DReactNativeStyles')}
           />
           {styleType ? (
             <TimedRender key={styleType}>

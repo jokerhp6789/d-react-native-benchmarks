@@ -3,7 +3,7 @@ import {StyleSheet, View} from 'react-native';
 const ReactNative = () => {
   return (
     <View style={{display: 'flex', flexDirection: 'row'}}>
-      {new Array(1000).fill(0).map((_, i) => (
+      {new Array(2000).fill(0).map((_, i) => (
         <View key={i} style={styles.styledView} />
       ))}
     </View>

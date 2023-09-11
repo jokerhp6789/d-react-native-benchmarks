@@ -1,12 +1,13 @@
-import {View} from 'd-component-react-native';
+import React from 'react';
+import {View, ScrollView} from 'd-component-react-native';
 
 const DReactNative = () => {
   return (
-    <View style={{display: 'flex', flexDirection: 'row'}}>
-      {new Array(1000).fill(0).map((_, i) => (
-        <View key={i} className="border-1 border-red p-2" />
+    <ScrollView horizontal className="flex-row">
+      {new Array(2000).fill(0).map((_, i) => (
+        <View key={i} className="border-2 border-red p-2" />
       ))}
-    </View>
+    </ScrollView>
   );
 };
 
